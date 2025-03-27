@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Have you met Tori?</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Haaaaaaaaaave you met Tori?</h1>
+      <p>
+        Hey! I'm Tori. I'm here today looking for one handome man, in exchange
+        for 50% equity in my personal life
+      </p>
+      <hr />
+      <p>Here's a bit about me:</p>
+      <div class="about-me">
+        <ul>
+          <li>🐱 Proud cat & soon-to-be dog mom</li>
+          <li>🍻 Craft beer enthusiast</li>
+          <li>📖 Tattooed book girlie</li>
+          <li>🎮 Party game champion (Mario Party, Uno, etc.)</li>
+          <li>🎸 Elder emo vibes</li>
+          <li>💉 Nurse (don't ask for medical advice!)</li>
+        </ul>
+      </div>
+      <h2>Think we'd vibe? Prove it!</h2>
+      <p>Send me your best selfie and tell me why we should go on a date! If I like what I see, I shoot you a text</p>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number (must be a blue bubble):</label>
+          <input type="phone" id="phone" name="phone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Why should we go on a date?</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="photo">Upload your best selfie:</label>
+          <input
+            type="file"
+            id="photo"
+            name="photo"
+            accept="image/*"
+            required
+          />
+        </div>
+
+        <button type="submit">Hit me with your best shot!</button>
+      </form>
+    </div>
+  </body>
+</html>
